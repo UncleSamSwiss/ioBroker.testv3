@@ -1,0 +1,44 @@
+{
+    "expert": "yes",
+    "cli": false,
+    "adapterName": "testv3",
+    "title": "Test V3",
+    "description": "",
+    "keywords": "",
+    "contributors": "",
+    "authorName": "Samuel Weibel",
+    "authorGithub": "UncleSamSwiss",
+    "authorEmail": "samuel.weibel@gmail.com",
+    "features": [
+        "adapter"
+    ],
+    "adminFeatures": [],
+    "type": "misc-data",
+    "startMode": "daemon",
+    "connectionType": "local",
+    "dataSource": "assumption",
+    "connectionIndicator": "yes",
+    "adapterSettings": [
+        {
+            "key": "option1",
+            "inputType": "number",
+            "defaultValue": 0
+        },
+        {
+            "key": "option2",
+            "inputType": "checkbox",
+            "defaultValue": true
+        }
+    ],
+    "language": "TypeScript (without build)",
+    "nodeVersion": "20",
+    "adminUi": "json",
+    "releaseScript": "yes",
+    "indentation": "Space (4)",
+    "quotes": "double",
+    "gitRemoteProtocol": "HTTPS",
+    "license": "MIT License",
+    "dependabot": "yes",
+    "target": "github",
+    "creatorVersion": "3.1.2"
+}
